@@ -1,4 +1,4 @@
-# Vite Starter
+# React Router Starter
 
 A project template for Vite with React, TypeScript, and Tailwind CSS.
 

@@ -1,5 +1,4 @@
 import { Container, Title } from '@mantine/core'
-import { createFileRoute } from '@tanstack/react-router'
 
 const HomePage = () => {
 	return (
@@ -9,6 +8,4 @@ const HomePage = () => {
 	)
 }
 
-export const Route = createFileRoute('/_layout/')({
-	component: HomePage,
-})
+export default HomePage

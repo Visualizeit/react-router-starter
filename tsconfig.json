@@ -1,9 +1,9 @@
 {
 	"extends": ["@epic-web/config/typescript"],
-	"include": ["@epic-web/config/reset.d.ts", "src"],
+	"include": ["@epic-web/config/reset.d.ts", "app"],
 	"compilerOptions": {
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": ["./app/*"]
 		}
 	},
 	"references": [{ "path": "./tsconfig.node.json" }]

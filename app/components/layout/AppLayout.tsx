@@ -1,5 +1,5 @@
 import { AppShell, Group, Title } from '@mantine/core'
-import { createFileRoute, Outlet } from '@tanstack/react-router'
+import { Outlet } from 'react-router'
 
 const AppLayout = () => {
 	return (
@@ -16,4 +16,4 @@ const AppLayout = () => {
 	)
 }
 
-export const Route = createFileRoute('/_layout')({ component: AppLayout })
+export default AppLayout
