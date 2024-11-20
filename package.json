@@ -30,7 +30,7 @@
     "tiny-invariant": "^1.3.3"
   },
   "devDependencies": {
-    "@epic-web/config": "^1.15.0",
+    "@epic-web/config": "^1.16.1",
     "@react-router/dev": "7.0.0-pre.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
