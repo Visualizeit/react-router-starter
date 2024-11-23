@@ -31,6 +31,7 @@
   "devDependencies": {
     "@epic-web/config": "^1.15.0",
     "@react-router/dev": "7.0.1",
+    "@total-typescript/tsconfig": "^1.0.4",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",
