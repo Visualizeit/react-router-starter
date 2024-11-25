@@ -16,7 +16,7 @@ importers:
         version: 7.13.3(react@18.3.1)
       '@react-router/fs-routes':
         specifier: 7.0.1
-        version: 7.0.1(@react-router/dev@7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.47))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))))(typescript@5.6.3)
+        version: 7.0.1(@react-router/dev@7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.49))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))))(typescript@5.6.3)
       '@react-router/node':
         specifier: 7.0.1
         version: 7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3)
@@ -53,10 +53,10 @@ importers:
         version: 1.15.0(@typescript-eslint/utils@8.9.0(eslint@9.14.0(jiti@2.4.0))(typescript@5.6.3))(eslint@9.14.0(jiti@2.4.0))(prettier@3.3.3)(typescript@5.6.3)
       '@react-router/dev':
         specifier: 7.0.1
-        version: 7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.47))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)))
+        version: 7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.49))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)))
       '@tailwindcss/vite':
         specifier: 4.0.0-beta.2
-        version: 4.0.0-beta.2(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.47))(postcss@8.4.47)(sugarss@4.0.1(postcss@8.4.47))(svelte@5.2.7)(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)))
+        version: 4.0.0-beta.2(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.49))(postcss@8.4.49)(sugarss@4.0.1(postcss@8.4.49))(svelte@5.2.7)(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)))
       '@total-typescript/tsconfig':
         specifier: ^1.0.4
         version: 1.0.4
@@ -79,14 +79,14 @@ importers:
         specifier: ^15.2.10
         version: 15.2.10
       postcss:
-        specifier: ^8.4.47
-        version: 8.4.47
+        specifier: ^8.4.49
+        version: 8.4.49
       postcss-preset-mantine:
         specifier: ^1.17.0
-        version: 1.17.0(postcss@8.4.47)
+        version: 1.17.0(postcss@8.4.49)
       postcss-simple-vars:
         specifier: ^7.0.1
-        version: 7.0.1(postcss@8.4.47)
+        version: 7.0.1(postcss@8.4.49)
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -98,10 +98,10 @@ importers:
         version: 5.6.3
       vite:
         specifier: ^5.4.10
-        version: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))
+        version: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))
       vite-tsconfig-paths:
         specifier: ^5.1.0
-        version: 5.1.0(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)))
+        version: 5.1.0(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)))
 
 packages:
 
@@ -2250,8 +2250,8 @@ packages:
     peerDependencies:
       postcss: ^8.2.1
 
-  postcss@8.4.47:
-    resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
+  postcss@8.4.49:
+    resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -3518,7 +3518,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@react-router/dev@7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.47))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)))':
+  '@react-router/dev@7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.49))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)))':
     dependencies:
       '@babel/core': 7.25.8
       '@babel/generator': 7.26.2
@@ -3549,8 +3549,8 @@ snapshots:
       semver: 7.6.3
       set-cookie-parser: 2.7.1
       valibot: 0.41.0(typescript@5.6.3)
-      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))
-      vite-node: 1.6.0(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))
+      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))
+      vite-node: 1.6.0(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))
     optionalDependencies:
       '@react-router/serve': 7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3)
       typescript: 5.6.3
@@ -3575,9 +3575,9 @@ snapshots:
     optionalDependencies:
       typescript: 5.6.3
 
-  '@react-router/fs-routes@7.0.1(@react-router/dev@7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.47))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))))(typescript@5.6.3)':
+  '@react-router/fs-routes@7.0.1(@react-router/dev@7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.49))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))))(typescript@5.6.3)':
     dependencies:
-      '@react-router/dev': 7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.47))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)))
+      '@react-router/dev': 7.0.1(@react-router/serve@7.0.1(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.6.3))(lightningcss@1.28.2)(react-router@7.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(sugarss@4.0.1(postcss@8.4.49))(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)))
       minimatch: 9.0.5
     optionalDependencies:
       typescript: 5.6.3
@@ -3714,14 +3714,14 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.0.0-beta.2
       '@tailwindcss/oxide-win32-x64-msvc': 4.0.0-beta.2
 
-  '@tailwindcss/vite@4.0.0-beta.2(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.47))(postcss@8.4.47)(sugarss@4.0.1(postcss@8.4.47))(svelte@5.2.7)(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)))':
+  '@tailwindcss/vite@4.0.0-beta.2(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.49))(postcss@8.4.49)(sugarss@4.0.1(postcss@8.4.49))(svelte@5.2.7)(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)))':
     dependencies:
       '@tailwindcss/node': 4.0.0-beta.2
       '@tailwindcss/oxide': 4.0.0-beta.2
       lightningcss: 1.28.2
-      svelte-preprocess: 6.0.3(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.47))(postcss@8.4.47)(sugarss@4.0.1(postcss@8.4.47))(svelte@5.2.7)(typescript@5.6.3)
+      svelte-preprocess: 6.0.3(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.49))(postcss@8.4.49)(sugarss@4.0.1(postcss@8.4.49))(svelte@5.2.7)(typescript@5.6.3)
       tailwindcss: 4.0.0-beta.2
-      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))
+      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -5332,48 +5332,48 @@ snapshots:
 
   possible-typed-array-names@1.0.0: {}
 
-  postcss-js@4.0.1(postcss@8.4.47):
+  postcss-js@4.0.1(postcss@8.4.49):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.47
+      postcss: 8.4.49
 
-  postcss-load-config@4.0.2(postcss@8.4.47):
+  postcss-load-config@4.0.2(postcss@8.4.49):
     dependencies:
       lilconfig: 3.1.2
       yaml: 2.6.0
     optionalDependencies:
-      postcss: 8.4.47
+      postcss: 8.4.49
     optional: true
 
-  postcss-mixins@9.0.4(postcss@8.4.47):
+  postcss-mixins@9.0.4(postcss@8.4.49):
     dependencies:
       fast-glob: 3.3.2
-      postcss: 8.4.47
-      postcss-js: 4.0.1(postcss@8.4.47)
-      postcss-simple-vars: 7.0.1(postcss@8.4.47)
-      sugarss: 4.0.1(postcss@8.4.47)
+      postcss: 8.4.49
+      postcss-js: 4.0.1(postcss@8.4.49)
+      postcss-simple-vars: 7.0.1(postcss@8.4.49)
+      sugarss: 4.0.1(postcss@8.4.49)
 
-  postcss-nested@6.2.0(postcss@8.4.47):
+  postcss-nested@6.2.0(postcss@8.4.49):
     dependencies:
-      postcss: 8.4.47
+      postcss: 8.4.49
       postcss-selector-parser: 6.1.2
 
-  postcss-preset-mantine@1.17.0(postcss@8.4.47):
+  postcss-preset-mantine@1.17.0(postcss@8.4.49):
     dependencies:
-      postcss: 8.4.47
-      postcss-mixins: 9.0.4(postcss@8.4.47)
-      postcss-nested: 6.2.0(postcss@8.4.47)
+      postcss: 8.4.49
+      postcss-mixins: 9.0.4(postcss@8.4.49)
+      postcss-nested: 6.2.0(postcss@8.4.49)
 
   postcss-selector-parser@6.1.2:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss-simple-vars@7.0.1(postcss@8.4.47):
+  postcss-simple-vars@7.0.1(postcss@8.4.49):
     dependencies:
-      postcss: 8.4.47
+      postcss: 8.4.49
 
-  postcss@8.4.47:
+  postcss@8.4.49:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.1.1
@@ -5804,9 +5804,9 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  sugarss@4.0.1(postcss@8.4.47):
+  sugarss@4.0.1(postcss@8.4.49):
     dependencies:
-      postcss: 8.4.47
+      postcss: 8.4.49
 
   supports-color@7.2.0:
     dependencies:
@@ -5814,14 +5814,14 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-preprocess@6.0.3(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.47))(postcss@8.4.47)(sugarss@4.0.1(postcss@8.4.47))(svelte@5.2.7)(typescript@5.6.3):
+  svelte-preprocess@6.0.3(@babel/core@7.25.8)(postcss-load-config@4.0.2(postcss@8.4.49))(postcss@8.4.49)(sugarss@4.0.1(postcss@8.4.49))(svelte@5.2.7)(typescript@5.6.3):
     dependencies:
       svelte: 5.2.7
     optionalDependencies:
       '@babel/core': 7.25.8
-      postcss: 8.4.47
-      postcss-load-config: 4.0.2(postcss@8.4.47)
-      sugarss: 4.0.1(postcss@8.4.47)
+      postcss: 8.4.49
+      postcss-load-config: 4.0.2(postcss@8.4.49)
+      sugarss: 4.0.1(postcss@8.4.49)
       typescript: 5.6.3
 
   svelte@5.2.7:
@@ -6008,13 +6008,13 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-node@1.6.0(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)):
+  vite-node@1.6.0(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)):
     dependencies:
       cac: 6.7.14
       debug: 4.3.7
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))
+      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6026,26 +6026,26 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@5.1.0(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))):
+  vite-tsconfig-paths@5.1.0(typescript@5.6.3)(vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))):
     dependencies:
       debug: 4.3.7
       globrex: 0.1.2
       tsconfck: 3.1.4(typescript@5.6.3)
     optionalDependencies:
-      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47))
+      vite: 5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49))
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.47)):
+  vite@5.4.10(lightningcss@1.28.2)(sugarss@4.0.1(postcss@8.4.49)):
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.4.47
+      postcss: 8.4.49
       rollup: 4.24.0
     optionalDependencies:
       fsevents: 2.3.3
       lightningcss: 1.28.2
-      sugarss: 4.0.1(postcss@8.4.47)
+      sugarss: 4.0.1(postcss@8.4.49)
 
   which-boxed-primitive@1.0.2:
     dependencies:
