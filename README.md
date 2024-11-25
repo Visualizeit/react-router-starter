@@ -16,13 +16,13 @@ Ensure you have the following dependencies installed on your system:
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/Visualizeit/vite-starter
+git clone https://github.com/Visualizeit/react-router-starter
 ```
 
 2. Change to the project directory:
 
 ```sh
-cd vite-starter
+cd react-router-starter
 ```
 
 3. Install the dependencies:
