@@ -27,8 +27,8 @@ importers:
         specifier: ^3.28.1
         version: 3.28.1(react@19.0.0)
       '@tanstack/react-query':
-        specifier: ^5.63.0
-        version: 5.63.0(react@19.0.0)
+        specifier: ^5.64.1
+        version: 5.64.1(react@19.0.0)
       isbot:
         specifier: ^5.1.21
         version: 5.1.21
@@ -774,11 +774,11 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6
 
-  '@tanstack/query-core@5.62.16':
-    resolution: {integrity: sha512-9Sgft7Qavcd+sN0V25xVyo0nfmcZXBuODy3FVG7BMWTg1HMLm8wwG5tNlLlmSic1u7l1v786oavn+STiFaPH2g==}
+  '@tanstack/query-core@5.64.1':
+    resolution: {integrity: sha512-978Wx4Wl4UJZbmvU/rkaM9cQtXXrbhK0lsz/UZhYIbyKYA8E4LdomTwyh2GHZ4oU0BKKoDH4YlKk2VscCUgNmg==}
 
-  '@tanstack/react-query@5.63.0':
-    resolution: {integrity: sha512-QWizLzSiog8xqIRYmuJRok9VELlXVBAwtINgVCgW1SNvamQwWDO5R0XFSkjoBEj53x9Of1KAthLRBUC5xmtVLQ==}
+  '@tanstack/react-query@5.64.1':
+    resolution: {integrity: sha512-vW5ggHpIO2Yjj44b4sB+Fd3cdnlMJppXRBJkEHvld6FXh3j5dwWJoQo7mGtKI2RbSFyiyu/PhGAy0+Vv5ev9Eg==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -3652,11 +3652,11 @@ snapshots:
       tailwindcss: 4.0.0-beta.8
       vite: 6.0.7(jiti@2.4.2)(lightningcss@1.29.1)(sugarss@4.0.1(postcss@8.4.49))(yaml@2.6.1)
 
-  '@tanstack/query-core@5.62.16': {}
+  '@tanstack/query-core@5.64.1': {}
 
-  '@tanstack/react-query@5.63.0(react@19.0.0)':
+  '@tanstack/react-query@5.64.1(react@19.0.0)':
     dependencies:
-      '@tanstack/query-core': 5.62.16
+      '@tanstack/query-core': 5.64.1
       react: 19.0.0
 
   '@total-typescript/ts-reset@0.6.1': {}
